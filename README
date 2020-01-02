@@ -1,8 +1,8 @@
-<b>add below line in your Manifest file</b>
+add below line in your Manifest file
 <application android:configChanges="uiMode">
 
 
-<b>add below code in your main luncher activity file</b>
+add below code in your main luncher activity file
 
 /*----------------------------for dark mode support---------------------------------------*/
 
@@ -22,7 +22,7 @@
         
         
         
-<b>add below code lines in your style.xml file</b>
+add below code lines in your style.xml file
 
      <style name="AppTheme" parent="Theme.AppCompat.DayNight">
     
@@ -36,7 +36,7 @@
     </style>
     
     
-<b>create new directory in res values-night and create colors.xml file</b>
+create new directory in res values-night and create colors.xml file
     <resources>
       <color name="colorPrimary">#FF9D00</color>
       <color name="colorPrimaryDark">#FF8E00</color>
